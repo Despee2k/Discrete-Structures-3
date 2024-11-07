@@ -1,0 +1,33 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+}
+
+.matrix {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-rows: repeat(10, auto);
+    grid-template-columns: repeat(10, auto);
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    outline: 1px solid black;
+}
