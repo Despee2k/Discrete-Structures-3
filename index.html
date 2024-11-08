@@ -7,15 +7,19 @@
 </head>
 <body>
     <main>
-        <div>
+        <section>
+            <label>Submit Image</label><br>
+            <input type="file" id="image-submit">
+        </section>
+        <section>
             <canvas id="canvas" width="100" height="100">
             
             </canvas>
-        </div>
-        <div class="matrix" id="matrix">
+        </section>
+        <section class="matrix" id="matrix">
 
-        </div>
-        <button onclick="imageSubmit()">Submit</button>
+        </section>
+        <button onclick="displayMatrix()">Display Matrix</button>
     </main>
 </body>
 <script src="index.js"></script>
